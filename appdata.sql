@@ -1,0 +1,9 @@
+CREATE DATABASE autoapp;
+
+USE autoapp;
+
+CREATE TABLE app_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    location VARCHAR(255) NOT NULL
+);
